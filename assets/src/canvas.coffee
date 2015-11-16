@@ -35,8 +35,6 @@ init = ->
   return
 
 colorLuminance = (hex, lum) ->
-  # I can't remember what this does tbh.
-
   # validate hex string
   hex = String(hex).replace(/[^0-9a-f]/gi, '') 
   if hex.length < 6
